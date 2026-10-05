@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(orangered,white,darkgreen);
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+}
+input{
+    height: 30px;
+    width: 220px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 15px;color: red;
+    font-size: 17px;
+}
+label{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 10px;
+
+}
+.btn{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}

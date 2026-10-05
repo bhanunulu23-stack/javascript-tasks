@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Caluclations.css">
+    <script>
+        function Addthree(){
+            var num1  = Number(document.getElementById("text-b1").value);
+            var num2  = Number(document.getElementById("text-b2").value);
+            var sum = num1 + num2 ;
+            document.getElementById("result").value = sum;
+            return false;
+
+        }
+        function Subthree(){
+            var num1  = Number(document.getElementById("text-b1").value);
+            var num2  = Number(document.getElementById("text-b2").value);
+            var sum = num1 - num2 ;
+            document.getElementById("result").value = sum;
+            return false;
+
+        }
+        function Multhree(){
+            var num1  = Number(document.getElementById("text-b1").value);
+            var num2  = Number(document.getElementById("text-b2").value);
+            var sum = num1 * num2 ;
+            document.getElementById("result").value = sum;
+            return false;
+
+        }
+        function Divthree(){
+            var num1  = Number(document.getElementById("text-b1").value);
+            var num2  = Number(document.getElementById("text-b2").value);
+            var sum = num1 / num2 ;
+            document.getElementById("result").value = sum;
+            return false;
+
+        }
+        function Modthree(){
+            var num1  = Number(document.getElementById("text-b1").value);
+            var num2  = Number(document.getElementById("text-b2").value);
+            var sum = num1 % num2 ;
+            document.getElementById("result").value = sum;
+            return false;
+
+        }
+    </script>
+</head>
+<body>
+    <form >
+        <label>Enter num1</label>
+        <input type="text" id="text-b1">
+
+        <label>Enter num2</label>
+        <input type="text" id="text-b2">
+
+        <label>Result :</label>
+        <input type="text" id="result" readonly /> <br />
+<div class="btn">
+        <button onclick=" return Addthree()">ADD</button>
+        <button onclick=" return Subthree()">SUB</button>
+        <button onclick=" return Multhree()">MUL</button>
+        <button onclick=" return Divthree()">DIV</button>
+        <button onclick=" return Modthree()">MOD</button>
+    </div>
+    </form>
+</body>
+</html>
